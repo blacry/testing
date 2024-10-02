@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fff8f0;
+}
+.icon{
+    color: transparent ;
+    user-select: none ;
+    background-repeat: no-repeat ;
+}
+/* header */
+header{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+span{
+    display:inline;
+}
+.heroimg{
+    width: 40%;
+    border-radius: 0 0 200px 200px ;
+}
+.herosec{
+    padding: 1% 2% 5% 10%;
+}
+p{
+    color: #331E6A;
+}
+.calltoaction{
+    display: flex;
+    justify-content:space-between;
+    margin-bottom: 30px;
+}
+.calltoaction div{
+    display: flex;
+}
+#phone span{
+    background-image:url("phone.png");
+}
+#email span{
+    background-image: url('email.png');
+}
+.herosec h4,.herosec h1,.herosec p,.herosec span{
+    margin: 0 0 15px 0;
+}
+.padding50{
+    padding-bottom: 40px;
+}
+#contact-me{
+    padding: 15px;
+    background-color: #2F2F2F;
+    color: #fff8f0;
+}
+/* main */
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+#mywork,.myproj{
+    padding: 0 20%;
+}
+.blue-cont{
+    display: flex;
+    justify-content: center;
+}
+.blue{
+    color: #2858FF;
+}
+.work{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 10%;
+}
+.work div{
+    background-color: #fff;
+    padding:1.5%;
+    margin: 0 .8%;
+    border-radius: 10px;
+}
+.work div p{
+    color: #55206D;
+}
+.arrow{
+    background-image: url('arrow.png');
+}
+.square{
+    padding: 3.5%;
+    border-radius: 10px;
+}
+.container{
+    margin: 2%;
+    text-align: left;
+}
+.proj{
+    padding-left: 1%;
+}
+a {
+    text-decoration: none;
+    color: #7f97ad;
+}
+  
+a:hover {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+}
+footer{
+    background-color: black;
+    padding: 1.5%;
+}
+footer span{
+    color: #fff8f0 ;
+}
